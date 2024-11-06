@@ -9,4 +9,4 @@ services:
       LANGCHAIN_API_KEY: ${LANGCHAIN_API_KEY}
     restart: always
     ports:
-      - 8000:8000
+      - 8001:8001
