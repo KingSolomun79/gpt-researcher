@@ -40,7 +40,7 @@ WORKDIR /usr/src/app
 COPY --chown=gpt-researcher:gpt-researcher ./ ./
 
 # Expose the application's port
-EXPOSE 8000
+EXPOSE 8001
 
 # Define the default command to run the application
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
